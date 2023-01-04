@@ -1,4 +1,5 @@
 
+import sys
 import csv
 
 from datetime import datetime
@@ -9,8 +10,18 @@ def ConvertDate(origDate):
 
 def main():
 
-    inputFile = open('rbc.csv')
-    outputFile = open('newrbc.csv', 'w', newline='')
+    #print(f"Arguments count: {len(sys.argv)}")
+    #for i, arg in enumerate(sys.argv):
+        #print(f"Argument {i:>6}: {arg}")
+
+    if len(sys.argv) != 2:
+        print('Incorrect number of args. Please provide filename')
+        return
+
+    filename = sys.argv[1]
+
+    inputFile = open(filename)
+    outputFile = open('new' + filename, 'w', newline='')
 
     reader = csv.reader(inputFile)
     writer = csv.writer(outputFile, dialect= 'excel')

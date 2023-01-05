@@ -7,15 +7,13 @@ def ConvertDateScotia(origDate):
     date = datetime.strptime(origDate, '%m/%d/%Y')
     return date.strftime('%d/%m/%Y')
 
-def scotia(accountName, filename):
+def scotia(writer, accountName, filename):
 
     account = accountName
 
     inputFile = open(filename)
-    outputFile = open('new' + filename, 'w', newline='')
 
     reader = csv.reader(inputFile)
-    writer = csv.writer(outputFile, dialect= 'excel')
 
     for row in reader:
         date = ConvertDateScotia(row[0])
@@ -25,4 +23,6 @@ def scotia(accountName, filename):
 
         newrow = [account] + [date] + [description] + [expenseType] + [amount]
         writer.writerow(newrow)
+
+    return writer
 

@@ -1,5 +1,4 @@
 
-import sys
 import csv
 
 from datetime import datetime
@@ -8,15 +7,13 @@ def ConvertDateRbc(origDate):
     date = datetime.strptime(origDate, '%m/%d/%Y')
     return date.strftime('%d/%m/%Y')
 
-def rbc(accountName, filename):
+def rbc(writer, accountName, filename):
 
     account = accountName
 
     inputFile = open(filename)
-    outputFile = open('new' + filename, 'w', newline='')
 
     reader = csv.reader(inputFile)
-    writer = csv.writer(outputFile, dialect= 'excel')
 
     # Skip header row
     next(reader)
@@ -29,3 +26,5 @@ def rbc(accountName, filename):
 
         newrow = [account] + [date] + [description] + [expenseType] + [amount]
         writer.writerow(newrow)
+
+    return writer

@@ -3,12 +3,15 @@ import csv
 
 from datetime import datetime
 
+outputDateFormat = '%Y/%m/%d'
+
 def ConvertDateTriangle(origDate):
     date = datetime.strptime(origDate, '%Y-%m-%d')
-    return date.strftime('%d/%m/%Y')
+    return date.strftime(outputDateFormat)
 
 def triangle(writer, accountName, filename):
 
+    print(f"Starting {accountName} - {filename}")
     account = accountName
 
     inputFile = open(filename)

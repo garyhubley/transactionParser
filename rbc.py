@@ -3,12 +3,15 @@ import csv
 
 from datetime import datetime
 
+outputDateFormat = '%Y/%m/%d'
+
 def ConvertDateRbc(origDate):
     date = datetime.strptime(origDate, '%m/%d/%Y')
-    return date.strftime('%d/%m/%Y')
+    return date.strftime(outputDateFormat)
 
 def rbc(writer, accountName, filename):
 
+    print(f"Starting {accountName} - {filename}")
     account = accountName
 
     inputFile = open(filename)

@@ -37,6 +37,18 @@ def filecheck(prefix):
 def usage():
     print("usage: ./main.py <csvDirectory>")
 
+def addCategories(filename, writer):
+    inputFile = open(filename)
+    reader = csv.reader(inputFile)
+
+    for row in reader:
+        page = row[2]
+        table = row[0]
+        category = row[1]
+
+        newrow = [page] + [table] + [category]
+        writer.writerow(newrow)
+
 def main():
     if len(sys.argv) != 2:
         usage()
@@ -52,7 +64,8 @@ def main():
     writer = csv.writer(outputFile, dialect= 'excel')
 
     # Write header row
-    header = ["account"] + ["date"] + ["description"] + ["expenseType"] + ["amount"]
+    header = ["account"] + ["date"] + ["description"] + ["expenseType"] 
+    header += ["amount"] + ["page"] + ["table"] + ["category"]
     writer.writerow(header) 
 
     for i in range(len(filenames)):

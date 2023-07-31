@@ -25,7 +25,7 @@ def rbc(writer, accountName, filename):
         date = ConvertDateRbc(row[2])
         description = row[4]
         expenseType = row[5]
-        amount = str(float(row[6] * -1))
+        amount = str(float(row[6]) * -1)
 
         newrow = [account] + [date] + [description] + [expenseType] + [amount]
         writer.writerow(newrow)

@@ -11,7 +11,10 @@ columns:
 4 Amount
 
 
-1. open transactions
+## Create transactions w/ data validation
+1. Download all transactions
+1. run combine.py
+1. open transactions csv file
 1. create new sheet
 1. open categories.csv
 1. paste values into new sheet

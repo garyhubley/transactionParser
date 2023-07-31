@@ -1,9 +1,9 @@
 #! /usr/bin/python3
 
-import scotia
-import rbc
-import cibc
-import triangle
+import pymodules.scotia as scotia
+import pymodules.rbc as rbc
+import pymodules.cibc as cibc
+import pymodules.triangle as triangle
 
 import csv
 import sys

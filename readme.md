@@ -27,3 +27,5 @@ columns:
 1. verify ranges populated in formulas > name manager
 1. run add validation macro
 
+## extract amounts
+1. run extract.py

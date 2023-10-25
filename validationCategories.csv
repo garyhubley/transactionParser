@@ -1,11 +1,11 @@
-Pages,,Tables,,Misc,,Vacations,,Savings
-house,,Utilities,,Christina Bank Fees,,Air Fare/public trans.,,Aurora RESP
-daily,,Professional,,Gary Bank Fees,,Accommodations,,Christina TFSA
-health,,House,,Mutual Bank Fees,,Alcohol,,Christina RRSP
-dependents,,Subscriptions,,Hair Cuts,,Food,,Gary TFSA
-entertainment,,Food,,Gifts,,Travel Insurance,,Gary RRSP
-transporation,,Clothing,,Accounting,,Souvenirs,,Emerg. Fund
-money,,Toiletries,,,,Rental Car,,Business Investment
+﻿Pages,,Tables,,Misc,,Vacations,,Savings
+HousePg,,Utilities,,Christina Bank Fees,,Air Fare/public trans.,,Aurora RESP
+DailyPg,,Professional,,Gary Bank Fees,,Accommodations,,Christina TFSA
+HealthPg,,House,,Mutual Bank Fees,,Alcohol,,Christina RRSP
+DependentsPg,,Subscriptions,,Hair Cuts,,Food,,Gary TFSA
+EntertainmentPg,,Food,,Gifts,,Travel Insurance,,Gary RRSP
+TransportationPg,,Clothing,,Accounting,,Souvenirs,,Emerg. Fund
+MoneyPg,,Toiletries,,,,Rental Car,,Business Investment
 ,,Supplies,,,,Other,,
 ,,Health,,,,gas,,
 ,,Misc,,,,Camping supplies,,
@@ -23,7 +23,7 @@ money,,Toiletries,,,,Rental Car,,Business Investment
 Utilities,,Professional,,Food,,Clothing,,Supplies
 Cell Phone Christina,,Prof. Fees (Christina),,Fast Food,,Gary Clothing,,Cleaning Supplies
 Cell Phone Gary,,Prof. Fees (Gary),,Groceries,,Christina Clothing,,Garden Supplies
-Internet,,Domain Name(s),,Dining Out,,Aurora Clothing,,Home D�cor
+Internet,,Domain Name(s),,Dining Out,,Aurora Clothing,,Home Décor
 Wood,,Prof. Development,,Energy Drinks/Snacks,,Dry Cleaning,,Organization
 Electricity,,Education,,,,costumes,,General House Items
 ,,,,,,,,Tools

@@ -16,7 +16,7 @@ columns:
 1. run combine.py
 1. open transactions csv file
 1. create new sheet
-1. open categories.csv
+1. open validationCategories.csv
 1. paste values into new sheet
 1. press alt+f11 to open vbe
 1. right click > import

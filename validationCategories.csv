@@ -1,63 +1,63 @@
-﻿Pages,,Tables,,Misc,,Vacations,,Savings
-HousePg,,Utilities,,Christina Bank Fees,,Air Fare/public trans.,,Aurora RESP
+﻿Pages,,Tables,,Accounts,,Vacations,,Savings
+HousePg,,Utilities,,Christina Bank Fees,,Air Fare/public trans.,,RESP
 DailyPg,,Professional,,Gary Bank Fees,,Accommodations,,Christina TFSA
 HealthPg,,House,,Mutual Bank Fees,,Alcohol,,Christina RRSP
-DependentsPg,,Subscriptions,,Hair Cuts,,Food,,Gary TFSA
-EntertainmentPg,,Food,,Gifts,,Travel Insurance,,Gary RRSP
-TransportationPg,,Clothing,,Accounting,,Souvenirs,,Emerg. Fund
-MoneyPg,,Toiletries,,,,Rental Car,,Business Investment
-,,Supplies,,,,Other,,
+DependentsPg,,Subscriptions,,Gifts,,Food,,Gary TFSA
+EntertainmentPg,,Food,,Accounting,,Travel Insurance,,Gary RRSP
+TransportPg,,Clothing,,,,Souvenirs,,Emerg. Fund
+AccountsPg,,Grooming,,,,Rental Car,,Business Investment
+IncomePg,,Supplies,,,,Other,,Accounting
 ,,Health,,,,gas,,
-,,Misc,,,,Camping supplies,,
-,,Barney,,,,Activities,,
-,,Aurora,,,,,,
+,,Barney,,,,Camping supplies,,
+,,Children,,,,Activities,,
 ,,Sports,,,,,,
 ,,Entertainment,,,,,,
 ,,Vacations,,,,,,
 ,,Transportation,,,,,,
 ,,Debt,,,,,,
 ,,Savings,,,,,,
-,,ChristinaIncome,,,,,,
-,,GaryIncome,,,,,,
+,,Accounts,,,,,,
+,,Christina Income,,,,,,
+,,Gary Income,,,,,,
 ,,,,,,,,
 Utilities,,Professional,,Food,,Clothing,,Supplies
-Cell Phone Christina,,Prof. Fees (Christina),,Fast Food,,Gary Clothing,,Cleaning Supplies
-Cell Phone Gary,,Prof. Fees (Gary),,Groceries,,Christina Clothing,,Garden Supplies
-Internet,,Domain Name(s),,Dining Out,,Aurora Clothing,,Home Décor
-Wood,,Prof. Development,,Energy Drinks/Snacks,,Dry Cleaning,,Organization
-Electricity,,Education,,,,costumes,,General House Items
+Cell Phone Christina,,Prof. Fees (Gary),,Fast Food,,Gary Clothing,,Cleaning Supplies
+Cell Phone Gary,,Domain Name(s),,Groceries,,Christina Clothing,,Garden Supplies
+Internet,,Prof. Development,,Dining Out,,Child Clothing,,Home Décor
+Wood,,Education,,Energy Drinks/Snacks,,Dry Cleaning,,Organization
+Electricity,,,,,,costumes,,General House Items
 ,,,,,,,,Tools
 ,,,,,,,,Electronics
 ,,,,,,,,
-House,,Subscriptions,,Gary Income,,Toiletries,,Health
-House Repairs,,YouTube Music,,Gross Income,,"Beauty Products (soap, makeup, etc.)",,Dental
-mortgage + prop. Tax,,Audible,,Health/Dental Insur.,,"Cleansing Products (shampoo, body wash, etc)",,OTC Drugs
-House Insurance,,Disney+,,Life Insurance,,"Teeth (toothbrush, toothpaste, etc)",,Prescriptions
-furniture,,Amazon Prime,,Income Tax,,,,Supplements
-,,costco membership,,EI,,,,Paramedical
-,,Microsoft Office,,CPP,,,,Family Life Insurance
-,,ExpressVPN,,Taxable Income,,,,other
-,,1Password,,Non Taxable Income,,,,Therapy
-,,cricut,,,,,,
+House,,Subscriptions,,Gary Income,,Grooming,,Health
+House Repairs,,YouTube Music,,Taxable,,"Beauty Products (soap, makeup, etc.)",,Dental
+mortgage + prop. Tax,,Audible,,Non-Taxable,,"Cleansing Products (shampoo, body wash, etc)",,OTC Drugs
+House Insurance,,Disney+,,,,"Teeth (toothbrush, toothpaste, etc)",,Prescriptions
+furniture,,Amazon Prime,,,,Hair Cuts,,Supplements
+,,costco membership,,,,,,Paramedical
+,,Microsoft Office,,,,,,Family Life Insurance
+,,ExpressVPN,,,,,,other
+,,1Password,,,,,,Therapy
+,,cricut,,,,,,Sexual Health
 ,,,,,,,,
-Barney,,Aurora,,Christina Income,,Sports,,Entertainment
-"Preventitive Medical (vaccines, tick, etc)",,Childcare,,Gross Income,,Friday/Tuesday Hockey,,Books
-Emergency Medical,,Swimming,,Other Income,,AHG Hockey,,Lottery
-Food,,Family Activities,,Prof. Fees,,Hockey Equipment,,Dates
-Treats,,Babysitting,,Pension,,Pick-up Hockey,,Concerts/Events
-Toys,,"Diapers etc (wipes, genie)",,Health/Denta Insur.,,,,Alcohol
-Daycare,,Toys,,Life Insurance,,,,Hosting
-Pet Insurance (trupanion),,baby supplies,,Income Tax,,,,Board Games
-grooming,,,,EI,,,,Weed
-,,,,CPP,,,,
-,,,,Union Dues,,,,
-,,,,IWK Donation,,,,
-,,,,Canadian Child Benefit,,,,
+Barney,,Children,,Christina Income,,Sports,,Entertainment
+"Preventitive Medical (vaccines, tick, etc)",,Childcare,,Taxable,,Friday/Tuesday Hockey,,Books
+Emergency Medical,,ExtraCurriculars,,Non-Taxable,,AHG Hockey,,Lottery
+Food,,Equipment,,CCB,,Hockey Equipment,,Dates
+Treats,,Family Activities,,,,Pick-up Hockey,,Concerts/Events
+Toys,,Babysitting,,,,,,Substances
+Daycare,,"Diapers etc (wipes, genie)",,,,,,Hosting
+Pet Insurance (trupanion),,Toys,,,,,,Games
+grooming,,Formula,,,,,,
+,,baby supplies,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
 ,,,,,,,,
 Transportation,,Debt,,,,,,
-Car cleaning,,LOC Payments,,,,,,
-Gas/Fuel,,Student Loans,,,,,,
-Combined Car Insurance,,Charitable Donations,,,,,,
+Car cleaning,,Student Loans,,,,,,
+Gas/Fuel,,Charitable Donations,,,,,,
+Combined Car Insurance,,,,,,,,
 Parking,,,,,,,,
 Tolls,,,,,,,,
 Licenses Renewals,,,,,,,,

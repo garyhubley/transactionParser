@@ -44,7 +44,7 @@ def main():
     # get path of inputfilename
 
     # create output filename
-    outputFilename = path.parent.absolute() / 'extractedTransactions.csv'
+    outputFilename = path.parent.absolute() / f'{path.stem}.extracted.csv'
 
     print(outputFilename)
 
@@ -56,7 +56,8 @@ def main():
         # skip header row
         next(reader)
 
-        for row in reader:
+        for idx, row in enumerate(reader):
+            #print(f' {idx}: couldn\'t find: >{row[5]}<, >{row[6]}<, >{row[7]}<')
             count += 1
             found = False
             # find entry in totalTable
@@ -67,7 +68,7 @@ def main():
                     #print(f'   found: {t[0]}, {t[1]}, {t[2]}: {t[3]}')
             if( found == False ): 
                 numMissed += 1
-                print(f' couldn\'t find: >{row[5]}<, >{row[6]}<, >{row[7]}<')
+                print(f' {idx}: couldn\'t find: >{row[5]}<, >{row[6]}<, >{row[7]}<')
 
     # open output file
     with open(outputFilename, 'w', newline='') as outputFile:

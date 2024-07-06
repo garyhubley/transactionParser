@@ -17,8 +17,8 @@ IncomePg,,Supplies,,,,Other,,Accounting
 ,,Debt,,,,,,
 ,,Savings,,,,,,
 ,,Accounts,,,,,,
-,,Christina Income,,,,,,
-,,Gary Income,,,,,,
+,,ChristinaIncome,,,,,,
+,,GaryIncome,,,,,,
 ,,,,,,,,
 Utilities,,Professional,,Food,,Clothing,,Supplies
 Cell Phone Christina,,Prof. Fees (Gary),,Fast Food,,Gary Clothing,,Cleaning Supplies
@@ -32,7 +32,7 @@ Electricity,,,,,,costumes,,General House Items
 House,,Subscriptions,,Gary Income,,Grooming,,Health
 House Repairs,,YouTube Music,,Taxable,,"Beauty Products (soap, makeup, etc.)",,Dental
 mortgage + prop. Tax,,Audible,,Non-Taxable,,"Cleansing Products (shampoo, body wash, etc)",,OTC Drugs
-House Insurance,,Disney+,,,,"Teeth (toothbrush, toothpaste, etc)",,Prescriptions
+House Insurance,,Disney+,,JTEKT,,"Teeth (toothbrush, toothpaste, etc)",,Prescriptions
 furniture,,Amazon Prime,,,,Hair Cuts,,Supplements
 ,,costco membership,,,,,,Paramedical
 ,,Microsoft Office,,,,,,Family Life Insurance
@@ -44,7 +44,7 @@ Barney,,Children,,Christina Income,,Sports,,Entertainment
 "Preventitive Medical (vaccines, tick, etc)",,Childcare,,Taxable,,Friday/Tuesday Hockey,,Books
 Emergency Medical,,ExtraCurriculars,,Non-Taxable,,AHG Hockey,,Lottery
 Food,,Equipment,,CCB,,Hockey Equipment,,Dates
-Treats,,Family Activities,,,,Pick-up Hockey,,Concerts/Events
+Treats,,Family Activities,,IWK,,Pick-up Hockey,,Concerts/Events
 Toys,,Babysitting,,,,,,Substances
 Daycare,,"Diapers etc (wipes, genie)",,,,,,Hosting
 Pet Insurance (trupanion),,Toys,,,,,,Games
@@ -66,3 +66,4 @@ Vehicle Registration,,,,,,,,
 Repairs,,,,,,,,
 Vehicle inspections,,,,,,,,
 Public Transport,,,,,,,,
+Car Payment,,,,,,,,

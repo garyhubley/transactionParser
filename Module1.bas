@@ -1,6 +1,6 @@
 Attribute VB_Name = "Module1"
 Sub NamedRanges()
-    ActiveWorkbook.Names.Add Name:="Pages", RefersTo:="=Sheet1!$A$2:$A$8"
+    ActiveWorkbook.Names.Add Name:="Pages", RefersTo:="=Sheet1!$A$2:$A$9"
     ActiveWorkbook.Names.Add Name:="HousePg", RefersTo:="=Sheet1!$C$2:$C$5"
     ActiveWorkbook.Names.Add Name:="DailyPg", RefersTo:="=Sheet1!$C$6:$C$9"
     ActiveWorkbook.Names.Add Name:="HealthPg", RefersTo:="=Sheet1!$C$10:$C$10"
@@ -23,12 +23,12 @@ Sub NamedRanges()
     ActiveWorkbook.Names.Add Name:="Sports", RefersTo:="=Sheet1!$G$44:$G$47"
     ActiveWorkbook.Names.Add Name:="Entertainment", RefersTo:="=Sheet1!$I$44:$I$50"
     ActiveWorkbook.Names.Add Name:="Vacations", RefersTo:="=Sheet1!$G$2:$G$12"
-    ActiveWorkbook.Names.Add Name:="Transportation", RefersTo:="=Sheet1!$A$58:$A$68"
+    ActiveWorkbook.Names.Add Name:="Transportation", RefersTo:="=Sheet1!$A$58:$A$69"
     ActiveWorkbook.Names.Add Name:="Debt", RefersTo:="=Sheet1!$C$58:$C$59"
     ActiveWorkbook.Names.Add Name:="Savings", RefersTo:="=Sheet1!$I$2:$I$9"
     ActiveWorkbook.Names.Add Name:="Accounts", RefersTo:="=Sheet1!$E$2:$E$6"
-    ActiveWorkbook.Names.Add Name:="ChristinaIncome", RefersTo:="=Sheet1!$E$44:$E$46"
-    ActiveWorkbook.Names.Add Name:="GaryIncome", RefersTo:="=Sheet1!$E$33:$E$34"
+    ActiveWorkbook.Names.Add Name:="ChristinaIncome", RefersTo:="=Sheet1!$E$44:$E$47"
+    ActiveWorkbook.Names.Add Name:="GaryIncome", RefersTo:="=Sheet1!$E$33:$E$35"
 End Sub
 
 Sub AddValidation()

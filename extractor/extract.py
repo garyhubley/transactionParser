@@ -68,6 +68,8 @@ def main():
                     #print(f'   found: {t[0]}, {t[1]}, {t[2]}: {t[3]}')
             if( found == False ): 
                 numMissed += 1
+                print("")
+                print(row)
                 print(f' {idx}: couldn\'t find: >{row[5]}<, >{row[6]}<, >{row[7]}<')
 
     # open output file

@@ -1,0 +1,135 @@
+amount,page,table,category
+,HousePg,Utilities,Cell Phone Christina
+,HousePg,Utilities,Cell Phone Gary
+,HousePg,Utilities,Internet
+,HousePg,Utilities,Wood
+,HousePg,Utilities,Electricity
+,HousePg,Professional,Prof. Fees (Gary)
+,HousePg,Professional,Domain Name(s)
+,HousePg,Professional,Prof. Development
+,HousePg,Professional,Education
+,HousePg,House,House Repairs
+,HousePg,House,mortgage + prop. Tax
+,HousePg,House,House Insurance
+,HousePg,House,furniture
+,HousePg,Subscriptions,YouTube Music
+,HousePg,Subscriptions,Audible
+,HousePg,Subscriptions,Disney+
+,HousePg,Subscriptions,Amazon Prime
+,HousePg,Subscriptions,costco membership
+,HousePg,Subscriptions,Microsoft Office
+,HousePg,Subscriptions,ExpressVPN
+,HousePg,Subscriptions,1Password
+,HousePg,Subscriptions,cricut
+,DailyPg,Food,Fast Food
+,DailyPg,Food,Groceries
+,DailyPg,Food,Dining Out
+=+100+-240.6+1384.47+76.01+4+39+-243.26+29.89+28.21+63.03+7.94+9.1+196.66+101.98+6.89+6.59+1500+-1909.46+-7.12,DailyPg,Food,Energy Drinks/Snacks
+,DailyPg,Clothing,Gary Clothing
+=+275.2+870.66+-1000+-1902.82+60+65.13+59.5+-1239.14+80.15+313.33+122.75+45.59+62.5+165+28.21+25.02+6+125.65+-125.65,DailyPg,Clothing,Christina Clothing
+,DailyPg,Clothing,Aurora Clothing
+,DailyPg,Clothing,Dry Cleaning
+,DailyPg,Clothing,costumes
+,DailyPg,Toiletries,"Beauty Products (soap, makeup, etc.)"
+=+263.23+112.7+-4640.21+-1600+1600+50+8.93+18.44+261.64+175+10.45+4.62+32.03+6.89+8.39+114.99+16.29+7.12+250+6.62,DailyPg,Toiletries,"Cleansing Products (shampoo, body wash, etc)"
+,DailyPg,Toiletries,"Teeth (toothbrush, toothpaste, etc)"
+,DailyPg,Supplies,Cleaning Supplies
+=+870.66+1487.48+138+208.21+50+243.26+56.36+-166.01+2.52+14.4+32.37+10.25+185.65+25.12+7.98+11.37+36.79+98.24+-4417.13,DailyPg,Supplies,Garden Supplies
+,DailyPg,Supplies,Home Décor
+,DailyPg,Supplies,Organization
+,DailyPg,Supplies,General House Items
+,DailyPg,Supplies,Tools
+,DailyPg,Supplies,Electronics
+,HealthPg,Health,Dental
+=+-1500+166.01+247.25+870.66+177.63+1300+50.09+74.48+407.96+6.5+57.53+5.98+43.28+-1487.48+2.03+3.45+9.76+250+3000,HealthPg,Health,OTC Drugs
+,HealthPg,Health,Prescriptions
+,HealthPg,Health,Supplements
+=+69.49+16.95+-3000+60+60+62.75+8.96+569.54+5.75+71.96+6.9+8.03+68.99+63.61+196.74+123.59+4+1000+119.03,HealthPg,Health,Paramedical
+,HealthPg,Health,Family Life Insurance
+,HealthPg,Health,other
+,HealthPg,Health,Therapy
+,HealthPg,Misc,Christina Bank Fees
+,HealthPg,Misc,Gary Bank Fees
+=+180.04+-1600+1239.14+-141.45+-1902.82+-177.63+42.67+70.03+164.81+36.78+3.44+28.21+20.24+17.24+31.2+96.59+-1652.34+61.88+7.12,HealthPg,Misc,Mutual Bank Fees
+,HealthPg,Misc,Hair Cuts
+=+208.21+-1300+40.99+275.19+200+76.01+62.05+66.09+2.1+13.07+-11.37+10.25+27.97+2.45+7.94+34.48+-1384.47+1600+-10,HealthPg,Misc,Gifts
+,HealthPg,Misc,Accounting
+,DependentsPg,Barney,"Preventitive Medical (vaccines, tick, etc)"
+,DependentsPg,Barney,Emergency Medical
+,DependentsPg,Barney,Food
+,DependentsPg,Barney,Treats
+,DependentsPg,Barney,Toys
+,DependentsPg,Barney,Daycare
+,DependentsPg,Barney,Pet Insurance (trupanion)
+,DependentsPg,Barney,grooming
+,DependentsPg,Aurora,Childcare
+,DependentsPg,Aurora,Swimming
+,DependentsPg,Aurora,Family Activities
+,DependentsPg,Aurora,Babysitting
+,DependentsPg,Aurora,"Diapers etc (wipes, genie)"
+,DependentsPg,Aurora,Toys
+,DependentsPg,Aurora,baby supplies
+,EntertainmentPg,Sports,Friday/Tuesday Hockey
+,EntertainmentPg,Sports,AHG Hockey
+,EntertainmentPg,Sports,Hockey Equipment
+,EntertainmentPg,Sports,Pick-up Hockey
+,EntertainmentPg,Entertainment,Books
+,EntertainmentPg,Entertainment,Lottery
+,EntertainmentPg,Entertainment,Dates
+,EntertainmentPg,Entertainment,Concerts/Events
+,EntertainmentPg,Entertainment,Alcohol
+,EntertainmentPg,Entertainment,Hosting
+,EntertainmentPg,Entertainment,Board Games
+,EntertainmentPg,Entertainment,Weed
+,EntertainmentPg,Vacations,Air Fare/public trans.
+,EntertainmentPg,Vacations,Accommodations
+,EntertainmentPg,Vacations,Alcohol
+,EntertainmentPg,Vacations,Food
+,EntertainmentPg,Vacations,Travel Insurance
+,EntertainmentPg,Vacations,Souvenirs
+,EntertainmentPg,Vacations,Rental Car
+,EntertainmentPg,Vacations,Other
+,EntertainmentPg,Vacations,gas
+,EntertainmentPg,Vacations,Camping supplies
+,EntertainmentPg,Vacations,Activities
+,TransportationPg,Transportation,Car cleaning
+,TransportationPg,Transportation,Gas/Fuel
+,TransportationPg,Transportation,Combined Car Insurance
+,TransportationPg,Transportation,Parking
+,TransportationPg,Transportation,Tolls
+,TransportationPg,Transportation,Licenses Renewals
+,TransportationPg,Transportation,Vehicle Maintenance
+,TransportationPg,Transportation,Vehicle Registration
+,TransportationPg,Transportation,Repairs
+,TransportationPg,Transportation,Vehicle inspections
+,TransportationPg,Transportation,Public Transport
+,MoneyPg,Debt,LOC Payments
+,MoneyPg,Debt,Student Loans
+,MoneyPg,Debt,Charitable Donations
+,MoneyPg,Savings,Aurora RESP
+,MoneyPg,Savings,Christina TFSA
+,MoneyPg,Savings,Christina RRSP
+,MoneyPg,Savings,Gary TFSA
+,MoneyPg,Savings,Gary RRSP
+,MoneyPg,Savings,Emerg. Fund
+,MoneyPg,Savings,Business Investment
+,MoneyPg,Christina Income,Gross Income
+,MoneyPg,Christina Income,Other Income
+,MoneyPg,Christina Income,Prof. Fees
+,MoneyPg,Christina Income,Pension
+,MoneyPg,Christina Income,Health/Denta Insur.
+,MoneyPg,Christina Income,Life Insurance
+,MoneyPg,Christina Income,Income Tax
+,MoneyPg,Christina Income,EI
+,MoneyPg,Christina Income,CPP
+,MoneyPg,Christina Income,Union Dues
+,MoneyPg,Christina Income,IWK Donation
+,MoneyPg,Christina Income,Canadian Child Benefit
+,MoneyPg,Gary Income,Gross Income
+,MoneyPg,Gary Income,Health/Dental Insur.
+,MoneyPg,Gary Income,Life Insurance
+,MoneyPg,Gary Income,Income Tax
+,MoneyPg,Gary Income,EI
+,MoneyPg,Gary Income,CPP
+,MoneyPg,Gary Income,Taxable Income
+,MoneyPg,Gary Income,Non Taxable Income

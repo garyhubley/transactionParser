@@ -24,10 +24,19 @@ def usage():
     print("usage: ./extract.py <path to transaction csv>")
 
 def addExpense( item, amount ):
-    if( item[3] == "" ):
-        item[3] = "="
+    if( item[2] == "" ):
+        item[2] = "="
 
-    item[3] = item[3] + '+' + amount
+    item[2] = item[2] + '+' + amount
+
+def findInTotalTable( row ):
+    found = False
+    for t in totals:
+        if( t[0] != "" and row[5] == t[0] and row[6] == t[1] ):
+            #print(f'   found: {t[0]}, {t[1]}: {t[2]} ')
+            addExpense( t, row[4] )
+            found = True
+    return found
 
 def main():
     if len(sys.argv) != 2:
@@ -57,28 +66,24 @@ def main():
         next(reader)
 
         for idx, row in enumerate(reader):
-            #print(f' {idx}: couldn\'t find: >{row[5]}<, >{row[6]}<, >{row[7]}<')
+            #print(f' {idx}: >{row[5]}<, >{row[6]}<')
             count += 1
-            found = False
             # find entry in totalTable
-            for t in totals:
-                if( row[5] == t[0] and row[6] == t[1] and row[7] == t[2] ):
-                    addExpense( t, row[4] )
-                    found = True
-                    #print(f'   found: {t[0]}, {t[1]}, {t[2]}: {t[3]}')
+            found = findInTotalTable(row)
+
             if( found == False ): 
                 numMissed += 1
                 print("")
-                print(row)
+                #print(row)
                 print(f' {idx}: couldn\'t find: >{row[5]}<, >{row[6]}<, >{row[7]}<')
 
     # open output file
     with open(outputFilename, 'w', newline='') as outputFile:
         writer = csv.writer(outputFile, dialect= 'excel')
-        header = ["amount"] + ["page"] + ["table"] + ["category"]
+        header = ["amount"] + ["table"] + ["category"]
         writer.writerow(header) 
         for t in totals:
-            writer.writerow( [ t[3] ] + [ t[0] ] + [ t[1] ] + [ t[2] ] )
+            writer.writerow( [ t[2] ] + [ t[0] ] + [ t[1] ] )
 
     numFound = count - numMissed
     print(f'Found {numFound} of {count} entries')

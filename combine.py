@@ -14,10 +14,10 @@ from datetime import datetime
 SUCCESS = 0
 FAIL = -1
 
+        # [ rbc.rbc, 'rbc visa', 'rbcVisa.csv' ],
 filenames = [
         [ scotia.scotia, 'Mutual cheq', 'mutual.csv' ],
         [ rbc.rbc, 'gary cheq', 'gary.csv' ],
-        [ rbc.rbc, 'rbc visa', 'rbcVisa.csv' ],
         [ cibc.cibc, 'costco', 'costco.csv' ],
         [ triangle.triangle, 'triangle', 'triangle.csv' ],
         [ cibc.cibc, 'Chris cheq', 'chrisCheq.csv'],
